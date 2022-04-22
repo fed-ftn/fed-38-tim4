@@ -1,0 +1,80 @@
+table.pregledi {
+  line-height: 200%;
+  border-collapse: collapse;
+  width: 70%;
+  margin: 0% auto;
+}
+table.pregledi caption {
+  color: blue;
+  font-size: 2em;
+  margin-bottom: 2%;
+}
+table.pregledi th {
+  text-align: left;
+  background-color: rgb(202, 202, 245);
+  border-top: 1px solid rgb(162, 162, 228);
+  border-bottom: 1px solid rgb(162, 162, 228);
+}
+table.pregledi tr {
+  border-bottom: 1px solid rgb(162, 162, 228);
+}
+table.pregledi tr:nth-child(odd) {
+  background-color: aqua;
+}
+
+body h1 {
+  color: blue;
+  font-size: 2em;
+  margin-bottom: 2%;
+  text-align: center;
+}
+body form {
+  padding: 20px;
+  width: 70%;
+  margin: 0% auto;
+  background-color: rgb(202, 202, 245);
+  border: 1px solid rgb(162, 162, 228);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+body form div.container {
+  width: 49%;
+  display: inline;
+}
+body form div.container div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+body form div.container div label {
+  width: 50%;
+}
+body form div.container div input {
+  border: none;
+  width: 50%;
+  margin-bottom: 40px;
+  border-radius: 10%;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+body form div.container div select {
+  width: 52%;
+  margin-bottom: 40px;
+  border-radius: 10%;
+  border: none;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+body form div.container div.dugme {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+body form div.container div.dugme input.dugme {
+  width: 30%;
+  margin-bottom: 0%;
+  margin-left: 10px;
+}
+
+/*# sourceMappingURL=Style_IItabela.css.map */

@@ -1,0 +1,98 @@
+table.pregledi {
+    line-height: 200%;
+    border-collapse: collapse;
+    width: 70%;
+    margin: 0% auto;
+
+    caption {
+        color: blue;
+        font-size: 2em;
+        margin-bottom: 2%;
+    }
+
+    th {
+        text-align: left;
+        background-color: rgb(202, 202, 245);
+        border-top: 1px solid rgb(162, 162, 228);
+        border-bottom: 1px solid rgb(162, 162, 228);
+    }
+
+    tr {
+        border-bottom: 1px solid rgb(162, 162, 228);
+
+        &:nth-child(odd) {
+            background-color: aqua;
+        }
+    }
+
+}
+
+body {
+    h1 {
+        color: blue;
+        font-size: 2em;
+        margin-bottom: 2%;
+        text-align: center;
+    }
+
+    form {
+        padding: 20px;
+        width: 70%;
+
+        margin: 0% auto;
+        background-color: rgb(202, 202, 245);
+        border: 1px solid rgb(162, 162, 228);
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+
+        div.container {
+
+            width: 49%;
+            display: inline;
+
+            div {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+
+                label {
+                    width: 50%;
+
+                }
+
+                input {
+                    border: none;
+                    width: 50%;
+                    margin-bottom: 40px;
+                    border-radius: 10%;
+                    padding-bottom: 5px;
+                    padding-top: 5px;
+                }
+
+                select {
+                    width: 52%;
+                    margin-bottom: 40px;
+                    border-radius: 10%;
+                    border: none;
+                    padding-bottom: 5px;
+                    padding-top: 5px;
+                }
+            }
+
+            div.dugme {
+                display: flex;
+                justify-content: flex-end;
+                width: 100%;
+
+                input.dugme {
+                    width: 30%;
+                    margin-bottom: 0%;
+                    margin-left: 10px;
+
+                }
+            }
+
+        }
+    }
+}
