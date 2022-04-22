@@ -4,6 +4,10 @@ table.pregledi {
     width: 70%;
     margin: 0% auto;
 
+    &:not(last-child) {
+        margin-bottom: 20px;
+    }
+
     caption {
         color: blue;
         font-size: 2em;
@@ -75,6 +79,46 @@ body {
                     margin-bottom: 40px;
                     border-radius: 10%;
                     border: none;
+                    padding-bottom: 5px;
+                    padding-top: 5px;
+                }
+            }
+
+            div.dugme {
+                display: flex;
+                justify-content: flex-end;
+                width: 100%;
+
+                input.dugme {
+                    width: 30%;
+                    margin-bottom: 0%;
+                    margin-left: 10px;
+
+                }
+            }
+
+
+        }
+
+        .container2 {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+
+            div {
+                width: 49%;
+                display: flex;
+                justify-content: space-between;
+
+                label {
+                    width: 20%;
+                }
+
+                input {
+                    width: 60%;
+                    border: none;
+                    margin-bottom: 40px;
+                    border-radius: 10%;
                     padding-bottom: 5px;
                     padding-top: 5px;
                 }

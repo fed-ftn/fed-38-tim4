@@ -4,6 +4,9 @@ table.pregledi {
   width: 70%;
   margin: 0% auto;
 }
+table.pregledi:not(last-child) {
+  margin-bottom: 20px;
+}
 table.pregledi caption {
   color: blue;
   font-size: 2em;
@@ -72,6 +75,37 @@ body form div.container div.dugme {
   width: 100%;
 }
 body form div.container div.dugme input.dugme {
+  width: 30%;
+  margin-bottom: 0%;
+  margin-left: 10px;
+}
+body form .container2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+body form .container2 div {
+  width: 49%;
+  display: flex;
+  justify-content: space-between;
+}
+body form .container2 div label {
+  width: 20%;
+}
+body form .container2 div input {
+  width: 60%;
+  border: none;
+  margin-bottom: 40px;
+  border-radius: 10%;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+body form .container2 div.dugme {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+body form .container2 div.dugme input.dugme {
   width: 30%;
   margin-bottom: 0%;
   margin-left: 10px;
